@@ -1,0 +1,63 @@
+/*
+ * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+ * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
+ */
+package house;
+
+/**
+ *
+ * @author ASUS
+ */
+public class Siswa {
+    private String nama;
+    private String alamat;
+    private int telpon;
+    private int kelas;
+    //constructor
+    public Siswa() {
+        nama = "Angelina Firda Rahmah";
+        alamat = "Jalan apaya";
+        telpon = 123456;
+        kelas = 10;
+    }
+    public Siswa(String n, String a, int t, int k) {
+        nama = n;
+        alamat = a;
+        telpon = t;
+        kelas = k;
+    }
+    //getter = untuk mengubah nilai atribut
+    public String getNama() {
+        return nama;
+    }
+    public String getAlamat() {
+        return alamat;
+    }
+    public int getTelpon() {
+        return telpon;
+    } 
+    public int getKelas() {
+        return kelas;
+    }
+    //setter = untuk mengubah nilai atribut
+    public void setNama(String n) {
+        nama = n;
+    }
+    public void setAlamat(String a) {
+        alamat = a;
+    }
+    public void setTelpon(int t) {
+        telpon = t;
+    }
+    public void setKelas(int k) {
+        kelas = k;
+    }
+    //method
+    public void tampil() {
+        System.out.println("Nama : " + nama);
+        System.out.println("Alamat : " + alamat);
+        System.out.println("Telpon : " + telpon);
+        System.out.println("Kelas : " + kelas);
+    }
+    
+}
